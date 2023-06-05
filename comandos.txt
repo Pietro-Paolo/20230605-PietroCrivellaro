@@ -1,0 +1,22 @@
+   18  mkdir 20230605-PietroCrivellaro
+   18  git init
+   19  git remote add origin https://github.com/Pietro-Paolo/20230605-PietroCrivellaro.git
+   20  git remote --v
+   21  touch comandos.txt main.js index.html
+   22  git add .
+   23  git commit -m "commit 01 de PietroCrivellaro"
+   24  git push origin main
+   25  git checkout -b "feature"
+   26  git branch
+   27  mkdir Hardware Software SeguridadInformatica
+   28  touch Hardware/resumen.txt SeguridadInformatica/resumen.txt Software/resumen.txt
+   29  git add .
+   30  git commit -m "commit 02 de PietroCrivellaro"
+   31  git push origin feature
+   32  git checkout main
+   33  mv main.js resumenHardware.txt
+   34  mv index.html resumenSoftware.txt
+   29  git add .
+   30  git commit -m "commit 03 de PietroCrivellaro"
+   31  git push origin main
+   35  history
